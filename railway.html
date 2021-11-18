@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Вокзал</title>
+		<link rel="shortcut icon" href="src/icon.png" type="image/png">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div onclick="go_up_button();" class="go_up_button shadow">
+			<i id="go_up_button" class="fas fa-chevron-up" style="font-size: 0px; padding: 0px; transition: 0.3s;"></i>
+		</div>
+
+		<!-- Footer starts -->
+		<div name="footer" class="footer">
+            <table>
+                <tr>
+                    <th class="footer_icon"><a href="index.html"><p><img src="src/logo.jpg" width="70%"></p></a></th>
+                    <th class="footer_title"><p>Вокзал</p></th>
+                </tr>
+            </table>
+		</div>
+
+		 <div class="select_div" >
+				<select onchange="location = this.value;">   
+ 					 <option selected disabled hidden>Що відвідати</option>  
+ 					 <option value="promenade.html">Набережна</option>   
+ 					 <option value="european_square.html">Європейська площа</option>  
+ 					 <option value="railway.html">Вокзал</option>  
+ 				</select> 	
+				 <select onchange="location = this.value;">   
+ 					 <option selected disabled hidden>Корисні посилання</option>  
+ 					 <option value="https://ua.sinoptik.ua/погода-дніпро">Погода сьогодні</option>   
+ 					 <option value="https://gorod.dp.ua/index.php?language=ua">Aфіша Дніпра</option>  
+ 					 <option value="https://dniprorada.gov.ua/uk">Дніпровська міська рада</option>  
+ 					 <option value="https://anitube.in.ua/">Аніме українською</option>  
+ 					 <option value="https://www.eway.in.ua/ua/cities/dnipro">Мапа громадського транспорту</option>  
+ 				</select> 		
+			</div>
+			
+			
+      
+		<!-- Footer ends -->
+
+		<!-- Main content starts -->
+		<div name="main_content" class="main_content">
+ 			
+
+			<div name="main" class="main">
+				<p class="main_title">
+					Історія вокзалу
+				</p>
+				<p class="main_text">
+					Сучасна станція відкрита 1884 року під назвою Катеринослав, а 20 липня 1926 року постановою Президії ЦВК СРСР станцію, як й усе місто було перейменовано на Дніпропетровськ. Під час Другої світової війни будівлю вокзалу було зруйновано.
+				</p>
+				<p class="intertext_image">
+				<img src="src/old_station.jpg" class="intertext_image" title="Стара будівля вокзалу"> <img src="src/station_night.jpg" class="intertext_image" title="Дніпро-Головний вночі">
+				</p>
+				<p class="main_text">
+					У 1951 році на тому ж місці за проєктом архітектора Олексія Душкіна зведено нову будівлю вокзалу в стилі сталінського ампіру. Сама споруда має довгасту прямокутну форму. Посередині розташований центральний вхід у внутрішні приміщення і до залізничних колій вокзалу. Він стилізований під арку, яка повністю покрита склом. З двох сторін арки виступають два пілона, які трохи вище самої будівлі. У них розташовані приміщення для службовців «Укрзалізниці». З обох боків від центрального входу розміщені симетричні праве і ліве крила вокзалу. Вони щільно обнесені величезними колонами, які вінчаються листяним декором у корінфському стилі, де розташовуються зал чекання, кафе, довідкове бюро, каси продажу проїзних документів на потяги, а також підземний пішохідний перехід. Будівля центрального залізничного вокзалу є основною, але не єдиною частиною архітектурної композиції Вокзальної площі. При виході з головного вокзалу, праворуч можна побачити житловий будинок, що гармонійно доповнює весь ансамбль площі. Навпроти нього розташований п'ятиповерховий будинок, який не має гострого кута, а поступово повертає на головний проспект міста. Навпроти самої будівлі вокзалу розташований семиповерховий будинок, двоярусна структура якого перегукується зі структурою головної залізничної станції.				</p>
+				</p>
+				<img src="src/station_day.jpg" class="intext_image" title="Вокзал удень">
+				<p class="main_text">
+					У 2018 році вокзал станції Дніпро-Головний увійшов у Топ-10 (5-те місце) найбільш завантажених вокзалів України, який обслужив 3,3 млн пасажирів у далекому сполученні (з них посадка — 1,6 млн пас./висадка — 1,6 млн пас.). Від станції Дніпро-Головний щоденно курсує фірмовий пасажирський поїзд «Дніпро». Коли від перону залізничного вокзалу відходить у столицю України фірмовий поїзд «Дніпро», з репродукторів лунає традиційний марш «Прощання Слов'янки», а по прибутті поїзда зі столиці — лунає «Пісня про Дніпро». У жовтні 2019 року на вокзалі станції Дніпро-Головний відкритий зал чекання для військовослужбовців.
+				</p>
+				<p class="main_title">
+					Локація
+				</p>			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6290.785126149326!2d35.01391548441455!3d48.47668549403669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe250a9cd54b1%3A0xb66da7f64dbb5246!2z0JTQvdGW0L_RgNC-LdCT0L7Qu9C-0LLQvdC40Lk!5e0!3m2!1suk!2sua!4v1637237594403!5m2!1suk!2sua" allowfullscreen="" loading="lazy"></iframe>	
+			</div>
+		<!-- Main content ends -->
+	</body>
+</html>
